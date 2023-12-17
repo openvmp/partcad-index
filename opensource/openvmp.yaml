@@ -1,0 +1,15 @@
+dependencies:
+    OpenVMP-custom-parts:
+        desc: Custom parts for OpenVMP robots
+        type: git
+        url: https://github.com/openvmp/openvmp-models.git
+        relPath: parts/custom
+        web: https://openvmp.com/
+        poc: openvmp@proton.me
+    OpenVMP-robots:
+        desc: OpenVMP robots
+        type: git
+        url: https://github.com/openvmp/openvmp-models.git
+        relPath: robots
+        web: https://openvmp.com/
+        poc: openvmp@proton.me

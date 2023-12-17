@@ -1,0 +1,16 @@
+dependencies:
+    partcad-metric:
+        type: local
+        path: standard/metric.yaml
+    partcad-imperial:
+        type: local
+        path: standard/imperial.yaml
+    partcad-battletech:
+        type: local
+        path: universe/battletech.yaml
+    partcad-starwars:
+        type: local
+        path: universe/starwars.yaml
+    partcad-openvmp:
+        type: local
+        path: opensource/openvmp.yaml
