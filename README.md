@@ -1,10 +1,8 @@
 # PartCAD Index
 
 This is a registry of all public PartCAD packages.
-Make your own private index repository for your private PartCAD projects,
-instead of adding them here.
 
-Add a reference to your own package by creating a pull request.
+Add a reference to other public package by creating a pull request.
 Add new files or extend the existing ones. Create your own directory if needed.
 New files need to be referenced to by existing files.
 
@@ -28,7 +26,7 @@ dependencies:
 
 ## Example
 
-In this example a sub-directory  local repository 
+Here is an example of making a reference to an external git repository:
 
 ```yaml
 dependencies:
@@ -78,7 +76,7 @@ dependencies:
     partcad-metric:
         type: git
         url: https://github.com/openvmp/partcad.git
-        relPath: standard/metric
+        relPath: standard/metric.yaml
     partcad-openvmp:
         type: git
         url: https://github.com/openvmp/partcad.git
