@@ -17,7 +17,7 @@ dependencies:
     <package-name>:
         desc: <(optional) textual description>
         type: <git|tar|local>
-        path: <(local only) relative-path-within-the-repository>
+        path: <(local only) relative-path>
         url: <(git|tar only) url-of-the-package>
         relPath: <(git|tar only) relative-path-within-the-repository>
         web: <(optional) project or maintainer's url>
@@ -80,6 +80,6 @@ dependencies:
     partcad-openvmp:
         type: git
         url: https://github.com/openvmp/partcad.git
-        relPath: opensource/openvmp.yaml
+        relPath: robots/multimodal/openvmp.yaml
 ```
 

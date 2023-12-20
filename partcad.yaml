@@ -13,4 +13,4 @@ dependencies:
         path: universe/starwars.yaml
     partcad-openvmp:
         type: local
-        path: opensource/openvmp.yaml
+        path: robots/multimodal/openvmp.yaml
