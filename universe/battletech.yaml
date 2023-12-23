@@ -1,4 +1,4 @@
-dependencies:
+import:
     partcad-universe-battletech:
         type: git
         url: https://github.com/openvmp/partcad-universe-battletech.git

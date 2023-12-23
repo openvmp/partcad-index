@@ -13,14 +13,14 @@ The part repositories maintained by the same party/owner are expected
 to be placed in the same file.
 
 ```yaml
-dependencies:
+import:
     <package-name>:
         desc: <(optional) textual description>
         type: <git|tar|local>
         path: <(local only) relative-path>
         url: <(git|tar only) url-of-the-package>
         relPath: <(git|tar only) relative-path-within-the-repository>
-        web: <(optional) project or maintainer's url>
+        web: <(optional) package or maintainer's url>
         poc: <(optional) maintainer's email>
 ```
 
@@ -29,7 +29,7 @@ dependencies:
 Here is an example of making a reference to an external git repository:
 
 ```yaml
-dependencies:
+import:
     OpenVMP-custom-parts:
         desc: Custom parts for OpenVMP robots
         type: git
@@ -52,15 +52,14 @@ dependencies:
 
 The top level of this repository is a PartCAD package by itself
 (with it's own top level `partcad.yaml`).
-It can be referenced in your PartCAD project by adding the below
+It can be referenced in your PartCAD package by adding the below
 to your own `partcad.yaml`:
 
 ```yaml
-dependencies:
+import:
     partcad-index:
         type: git
-        url: https://github.com/openvmp/partcad.git
-        relPath: .
+        url: https://github.com/openvmp/partcad-index.git
 ```
 
 ### Use a part of the index repository
@@ -72,7 +71,7 @@ Use it with caution as the directory structure may change
 Below is an example of using a subset of packages in your project:
 
 ```yaml
-dependencies:
+import:
     partcad-metric:
         type: git
         url: https://github.com/openvmp/partcad.git
@@ -80,6 +79,6 @@ dependencies:
     partcad-openvmp:
         type: git
         url: https://github.com/openvmp/partcad.git
-        relPath: robots/multimodal/openvmp.yaml
+        relPath: roboticss/robots_multimodal/openvmp.yaml
 ```
 

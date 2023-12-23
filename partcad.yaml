@@ -1,4 +1,4 @@
-dependencies:
+import:
     partcad-metric:
         type: local
         path: standard/metric.yaml
@@ -11,6 +11,9 @@ dependencies:
     partcad-starwars:
         type: local
         path: universe/starwars.yaml
+    partcad-gobilda:
+        type: local
+        path: robotics/part_vendors/gobilda.yaml
     partcad-openvmp:
         type: local
-        path: robots/multimodal/openvmp.yaml
+        path: robotics/robots_multimodal/openvmp.yaml

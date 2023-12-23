@@ -1,0 +1,6 @@
+import:
+    gobilda:
+        desc: GoBILDA
+        type: git
+        url: https://github.com/openvmp/partcad-gobilda.git
+        web: https://gobilda.com/

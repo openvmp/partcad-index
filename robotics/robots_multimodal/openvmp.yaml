@@ -1,4 +1,4 @@
-dependencies:
+import:
     OpenVMP-custom-parts:
         desc: Custom parts for OpenVMP robots
         type: git
