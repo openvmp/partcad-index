@@ -1,5 +1,4 @@
 import:
-    partcad-standard-metric:
-        type: git
-        url: https://github.com/openvmp/partcad-standard-metric.git
-
+  standard-metric:
+    type: git
+    url: https://github.com/openvmp/partcad-standard-metric.git

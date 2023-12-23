@@ -1,5 +1,4 @@
 import:
-    partcad-universe-starwars:
-        type: git
-        url: https://github.com/openvmp/partcad-universe-starwars.git
-
+  universe-starwars:
+    type: git
+    url: https://github.com/openvmp/partcad-universe-starwars.git

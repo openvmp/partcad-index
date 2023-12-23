@@ -17,12 +17,17 @@ import:
     <package-name>:
         desc: <(optional) textual description>
         type: <git|tar|local>
-        path: <(local only) relative-path>
-        url: <(git|tar only) url-of-the-package>
-        relPath: <(git|tar only) relative-path-within-the-repository>
+        path: <(local only) relative path>
+        url: <(git|tar only) url of the package>
+        relPath: <(git|tar only) relative path within the repository>
         web: <(optional) package or maintainer's url>
         poc: <(optional) maintainer's email>
 ```
+
+Please, note, `web` and `poc` are used for maintenance of this repository.
+They won't be visible to PartCAD users.
+The PartCAD users will be provided contact information defined in the package
+itself.
 
 ## Example
 
@@ -81,4 +86,3 @@ import:
         url: https://github.com/openvmp/partcad.git
         relPath: roboticss/robots_multimodal/openvmp.yaml
 ```
-
