@@ -31,9 +31,10 @@ itself.
 
 ## Example
 
-Here is an example of making a reference to an external git repository:
+Here is an example of making a reference to an external git repository. It shows how OpenVMP parts and blueprints can be published to PartCAD index.
 
 ```yaml
+# robotics/robots_multimodal/openvmp.yaml
 import:
     OpenVMP-custom-parts:
         desc: Custom parts for OpenVMP robots
@@ -53,8 +54,6 @@ import:
 
 ## Usage
 
-### Use the whole index repository
-
 The top level of this repository is a PartCAD package by itself
 (with it's own top level `partcad.yaml`).
 It can be referenced in your PartCAD package by adding the below
@@ -65,24 +64,4 @@ import:
     partcad-index:
         type: git
         url: https://github.com/openvmp/partcad-index.git
-```
-
-### Use a part of the index repository
-
-Multiple `local`-type packages (sub-directories) are used
-for ease of maintenance and to enable referencing a subset of packages.
-Use it with caution as the directory structure may change
-(at this early stage of PartCAD).
-Below is an example of using a subset of packages in your project:
-
-```yaml
-import:
-    partcad-metric:
-        type: git
-        url: https://github.com/openvmp/partcad.git
-        relPath: standard/metric.yaml
-    partcad-openvmp:
-        type: git
-        url: https://github.com/openvmp/partcad.git
-        relPath: roboticss/robots_multimodal/openvmp.yaml
 ```

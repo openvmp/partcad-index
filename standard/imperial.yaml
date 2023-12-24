@@ -1,4 +1,0 @@
-import:
-  standard-imperial:
-    type: git
-    url: https://github.com/openvmp/partcad-standard-imperial.git

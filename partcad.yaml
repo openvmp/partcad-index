@@ -1,19 +1,4 @@
 import:
-  partcad-standard-metric:
-    type: local
-    path: standard/metric.yaml
-  partcad-standard-imperial:
-    type: local
-    path: standard/imperial.yaml
-  partcad-universe-battletech:
-    type: local
-    path: universe/battletech.yaml
-  partcad-universe-starwars:
-    type: local
-    path: universe/starwars.yaml
   partcad-robotics-part-vendor-gobilda:
     type: local
     path: robotics/part_vendors/gobilda.yaml
-  partcad-robotics-robots-multimodal-openvmp:
-    type: local
-    path: robotics/robots_multimodal/openvmp.yaml
