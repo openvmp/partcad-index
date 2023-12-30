@@ -1,4 +1,7 @@
 import:
+  partcad-electromechanics-stepperonline:
+    type: local
+    path: electromechanics/stepperonline.yaml
   partcad-robotics-part-vendor-gobilda:
     type: local
     path: robotics/part_vendors/gobilda.yaml
