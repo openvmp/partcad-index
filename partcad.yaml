@@ -1,4 +1,7 @@
 import:
+  partcad-standard-metric:
+    type: local
+    path: standard/metric.yaml
   partcad-electromechanics-stepperonline:
     type: local
     path: electromechanics/stepperonline.yaml
