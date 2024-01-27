@@ -2,6 +2,5 @@ import:
   standard-metric-cqwarehouse:
     desc: Standard metric parts implemented in cq-warehouse
     type: git
-    revision: parameters_test
     url: https://github.com/openvmp/partcad-cqwarehouse/
     relPath: metric.yaml
