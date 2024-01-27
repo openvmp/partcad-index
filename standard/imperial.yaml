@@ -1,0 +1,6 @@
+import:
+  standard-imperial-cqwarehouse:
+    desc: Standard imperial parts implemented in cq-warehouse
+    type: git
+    url: https://github.com/openvmp/partcad-cqwarehouse/
+    relPath: imperial.yaml

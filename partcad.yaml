@@ -2,6 +2,9 @@ import:
   partcad-standard-metric:
     type: local
     path: standard/metric.yaml
+  partcad-standard-imperial:
+    type: local
+    path: standard/imperial.yaml
   partcad-electromechanics-stepperonline:
     type: local
     path: electromechanics/stepperonline.yaml
