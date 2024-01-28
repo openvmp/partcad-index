@@ -1,13 +1,16 @@
 import:
-  partcad-standard-metric:
+  pc-std-metric:
     type: local
     path: standard/metric.yaml
-  partcad-standard-imperial:
+  pc-std-imperial:
     type: local
     path: standard/imperial.yaml
-  partcad-electromechanics-stepperonline:
+  pc-electromechanics:
     type: local
-    path: electromechanics/stepperonline.yaml
-  partcad-robotics-part-vendor-gobilda:
+    path: electromechanics/part_vendors.yaml
+  pc-robotics-part-vendor:
     type: local
-    path: robotics/part_vendors/gobilda.yaml
+    path: robotics/part_vendors.yaml
+  pc-storage-workspace:
+    type: local
+    path: storage/workspace.yaml

@@ -1,5 +1,5 @@
 import:
-  robotics-part-vendor-gobilda:
+  pc-robotics-gobilda:
     desc: GoBILDA
     type: git
     url: https://github.com/openvmp/partcad-robotics-part-vendor-gobilda.git
