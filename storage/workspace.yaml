@@ -1,0 +1,8 @@
+import:
+  pc-storage-workspace-gridfinity:
+    desc: "Gridfinity system created by Zach Freedman"
+    web: https://www.youtube.com/c/ZackFreedman
+    type: git
+    url: https://github.com/openvmp/cq-gridfinity/
+    revision: feature/partcad-shim
+
