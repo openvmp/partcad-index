@@ -5,6 +5,9 @@ import:
   pc-std-imperial:
     type: local
     path: standard/imperial.yaml
+  pc-electronics-sbc:
+    type: local
+    path: electronics/sbc_vendors.yaml
   pc-electromechanics:
     type: local
     path: electromechanics/part_vendors.yaml

@@ -1,0 +1,13 @@
+import:
+  pc-electronics-intel:
+    desc: Intel SBCs
+    type: git
+    url: https://github.com/openvmp/partcad-electronics-sbcs-intel.git
+  pc-electronics-raspberrypi:
+    desc: RaspberryPi
+    type: git
+    url: https://github.com/openvmp/partcad-electronics-sbcs-raspberrypi.git
+  pc-electronics-arduino:
+    desc: Arduino
+    type: git
+    url: https://github.com/openvmp/partcad-electronics-sbcs-arduino.git
