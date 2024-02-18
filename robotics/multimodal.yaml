@@ -2,10 +2,10 @@ import:
   openvmp-parts:
     desc: Custom parts for OpenVMP robots
     type: git
-    path: https://github.com/openvmp/openvmp-models
+    url: https://github.com/openvmp/openvmp-models
     relPath: parts
   openvmp-don1:
     desc: The first OpenVMP robot (work in progress)
     type: git
-    path: https://github.com/openvmp/openvmp-models
+    url: https://github.com/openvmp/openvmp-models
     relPath: robots/don1
