@@ -1,0 +1,7 @@
+import:
+  pc-workspace-basic:
+    desc: Basic furniture for low demand workspace environments
+    type: git
+    url: https://github.com/openvmp/partcad-furniture-basic
+    relPath: workspace
+

@@ -5,6 +5,9 @@ import:
   pc-std-imperial:
     type: local
     path: standard/imperial.yaml
+  pc-furniture-workspace:
+    type: local
+    path: furniture/workspace.yaml
   pc-electrical-battery:
     type: local
     path: electrical/battery_vendors.yaml
@@ -14,6 +17,9 @@ import:
   pc-electromechanics:
     type: local
     path: electromechanics/part_vendors.yaml
+  pc-robotics-multimodal:
+    type: local
+    path: robotics/multimodal.yaml
   pc-robotics-part-vendor:
     type: local
     path: robotics/part_vendors.yaml
