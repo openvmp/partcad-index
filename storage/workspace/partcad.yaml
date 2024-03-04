@@ -1,5 +1,5 @@
 import:
-  pc-storage-workspace-gridfinity:
+  gridfinity:
     desc: "Gridfinity system created by Zach Freedman"
     web: https://www.youtube.com/c/ZackFreedman
     type: git

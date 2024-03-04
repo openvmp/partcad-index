@@ -1,9 +1,9 @@
 import:
-  pc-electromechanics-stepperonline:
+  stepperonline:
     desc: STEPPERONLINE
     type: git
     url: https://github.com/openvmp/partcad-electromechanics-stepperonline.git
-  pc-electromechanics-cloudray:
+  cloudray:
     desc: Cloudray
     type: git
     url: https://github.com/openvmp/partcad-electromechanics-cloudray.git
