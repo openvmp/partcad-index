@@ -34,7 +34,7 @@ itself.
 Here is an example of making a reference to an external git repository. It shows how OpenVMP parts and blueprints can be published to PartCAD index.
 
 ```yaml
-# robotics/robots_multimodal/openvmp.yaml
+# robotics/multimodal/partcad.yaml
 import:
     OpenVMP-custom-parts:
         desc: Custom parts for OpenVMP robots
