@@ -7,3 +7,7 @@ import:
     desc: DFRobot
     type: git
     url: https://github.com/openvmp/partcad-robotics-part-vendor-dfrobot.git
+  towerpro:
+    desc: TowerPro
+    type: git
+    url: https://github.com/openvmp/partcad-robotics-part-vendor-towerpro.git
