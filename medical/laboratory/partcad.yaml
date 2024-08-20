@@ -1,7 +1,7 @@
 partcad: ">=0.6.33"
 
 import:
-  4tvc:
+  4tvc-microlab:
     desc: Four Thieves Vinegar Collective - Harm Reduction for the Living
     type: git
     url: https://github.com/openvmp/forked-FourThievesVinegar-solderless-microlab
