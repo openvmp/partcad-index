@@ -1,4 +1,9 @@
 import:
+  cadquery:
+    desc: Examples of CadQuery scripts
+    type: git
+    url: https://github.com/openvmp/cadquery
+    revision: examples-in-partcad
   build123d:
     desc: Examples of build123d scripts
     type: git
