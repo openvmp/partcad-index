@@ -1,4 +1,6 @@
 partcad: ">=0.6.18"
+cover:
+  package: partcad
 
 import:
   partcad:

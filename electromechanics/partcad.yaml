@@ -1,3 +1,5 @@
+cover:
+  package: stepperonline
 import:
   stepperonline:
     desc: STEPPERONLINE

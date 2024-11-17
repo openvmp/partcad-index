@@ -1,3 +1,6 @@
+cover:
+  package: cqwarehouse
+
 import:
   cqwarehouse:
     desc: Standard metric parts implemented in cq-warehouse

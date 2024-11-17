@@ -1,3 +1,6 @@
+cover:
+  package: intel
+
 import:
   intel:
     desc: Intel SBCs

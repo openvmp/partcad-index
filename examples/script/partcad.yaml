@@ -1,3 +1,6 @@
+cover:
+  package: build123d
+
 import:
   cadquery:
     desc: Examples of CadQuery scripts
