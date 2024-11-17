@@ -16,4 +16,4 @@ import:
     desc: Examples of build123d scripts
     type: git
     url: https://github.com/openvmp/build123d
-    revision: partcad-examples-update
+    revision: partcad-examples-update-2
